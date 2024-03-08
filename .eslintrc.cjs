@@ -3,11 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   overrides: [
     {
       env: {
@@ -25,13 +21,11 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    rules: {
-      quotes: [
-        'error',
-        'double',
-        { avoidEscape: true, allowTemplateLiterals: true },
-      ],
-      'react/react-in-jsx-scope': 'off',
-    },
+    quotes: [
+      'error',
+      'single',
+      { avoidEscape: true, allowTemplateLiterals: true },
+    ],
+    'react/react-in-jsx-scope': 'off',
   },
 };
