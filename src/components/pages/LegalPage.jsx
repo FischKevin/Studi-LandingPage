@@ -1,8 +1,16 @@
+import Navbar from '../base/Navbar';
+import Header from '../base/Header';
+import Footer from '../base/Footer';
+import Legal from '../legalPage/Legal';
+
 function LegalPage() {
   return (
-    <div>
-      <h1>Welcome to the legal page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <Legal />
+      <Footer />
+    </>
   );
 }
 

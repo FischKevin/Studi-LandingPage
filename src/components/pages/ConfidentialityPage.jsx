@@ -1,8 +1,16 @@
+import Navbar from '../base/Navbar';
+import Header from '../base/Header';
+import Footer from '../base/Footer';
+import Confidentiality from '../confidentialityPage/Confidentiality';
+
 function ConfidentialityPage() {
   return (
-    <div>
-      <h1>Welcome to the confidentiality page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <Confidentiality />
+      <Footer />
+    </>
   );
 }
 

@@ -1,9 +1,17 @@
-function NotFoundPage() {
+import Navbar from '../base/Navbar';
+import Header from '../base/Header';
+import Footer from '../base/Footer';
+import NotFound from '../notFoundPage/NotFound';
+
+function LegalPage() {
   return (
-    <div>
-      <h1>Welcome to the not found page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Header />
+      <NotFound />
+      <Footer />
+    </>
   );
 }
 
-export default NotFoundPage;
+export default LegalPage;
