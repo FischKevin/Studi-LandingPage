@@ -7,6 +7,7 @@ import News from '../landingPage/News';
 import FAQ from '../landingPage/FAQ';
 import Contact from '../landingPage/Contact';
 import Footer from '../base/Footer';
+import CookieConsent from '../CookieConsent';
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
       <FAQ />
       <Contact />
       <Footer />
+      <CookieConsent />
     </>
   );
 }

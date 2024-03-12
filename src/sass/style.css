@@ -3,6 +3,10 @@ body {
   margin: 0 auto;
 }
 
+.cookie {
+  min-width: 80px !important;
+}
+
 h1 {
   color: blueviolet;
 }
