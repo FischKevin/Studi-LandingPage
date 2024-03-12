@@ -4,7 +4,7 @@ import backgroundImage from '/jason-leung-Xaanw0s0pMk-unsplash.jpg';
 
 function Planning() {
   return (
-    <Container maxWidth="lg" sx={{ backgroundImage: `url(${backgroundImage})`, color: 'white', textAlign: 'center', padding: '40px', backgroundSize: 'cover' }}>
+    <Container maxWidth="full" sx={{ backgroundImage: `url(${backgroundImage})`, color: 'white', textAlign: 'center', padding: '40px', backgroundSize: 'cover' }}>
       {/* Titre du planning */}
       <Box sx={{ display: 'inline-block', margin: '0 auto', backgroundColor: 'transparent' }}>
         <Typography variant="h4" component="h2" gutterBottom sx={{ textShadow:'0px 8px 10px rgba(0, 0, 0, 0.4)', backgroundColor: 'transparent', fontFamily: 'Agency FB V2, Arial', fontWeight:'bold', marginBottom: '20px' }}>
