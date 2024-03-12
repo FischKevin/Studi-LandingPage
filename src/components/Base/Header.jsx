@@ -10,7 +10,7 @@ function Header() {
         backgroundPosition: 'center',
         color: '#fff',
         width: '100%',
-        height: '500px',
+        height: '550px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-end',

@@ -26,7 +26,7 @@ function Navbar() {
       position="fixed"
       sx={{ transition: '0.3s', ...(shrink && { padding: '10px 0' }) }}
     >
-      <Toolbar sx={{ marginBottom: '12px', paddingTop: '10px', minHeight: shrink ? '56px' : '64px' }}>
+      <Toolbar sx={{ marginBottom: '30px', paddingTop: '20px', minHeight: shrink ? '56px' : '64px' }}>
         <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center' }}>
           <img
             src="/logo_text.png"
