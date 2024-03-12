@@ -1,21 +1,26 @@
-import { Typography, Button } from '@mui/material';
+import React from 'react';
 import Box from '@mui/material/Box';
 
 function Header() {
   return (
-    <Box className="header"
+    <Box
       sx={{
-        backgroundImage: 'url(/chemin-vers-votre-image.jpg)',
+        backgroundImage: 'url(/side-view-happy-woman-winning-videogame.jpg)',
         backgroundSize: 'cover',
+        backgroundPosition: 'center',
         color: '#fff',
+        width: '100%',
+        height: '500px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+        alignItems: 'center',
         p: 6,
-        textAlign: 'center',
       }}
     >
-      <Typography variant="h2" component="h1" gutterBottom>
-        Bienvenue sur l Event
-      </Typography>
-      <Button variant="contained">Rejoignez-nous</Button>
+      <button className="customButton">
+        ACHETE TON BILLET
+      </button>
     </Box>
   );
 }

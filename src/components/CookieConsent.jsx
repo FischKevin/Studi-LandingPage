@@ -28,24 +28,37 @@ const CookieConsent = () => {
   }
 
   return (
-    <Box sx={{
-      position: 'fixed',
-      bottom: 0,
-      bgcolor: 'background.paper',
-      p: 2,
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      gap: 2,
-      borderTop: '1px solid #ccc',
-    }}>
+    <Box
+      sx={{
+        position: 'fixed',
+        bottom: 0,
+        bgcolor: 'background.paper',
+        p: 2,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 2,
+        borderTop: '1px solid #ccc',
+      }}
+    >
       <Typography>
-        Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser ce site, vous acceptez notre politique de cookies.
+        Nous utilisons des cookies pour améliorer votre expérience. En
+        continuant à utiliser ce site, vous acceptez notre politique de cookies.
       </Typography>
-      <Button className='cookie' variant="contained" color="primary" onClick={handleAccept}>
+      <Button
+        className="cookie"
+        variant="contained"
+        color="primary"
+        onClick={handleAccept}
+      >
         Accepter
       </Button>
-      <Button className='cookie' variant="outlined" color="secondary" onClick={handleDecline}>
+      <Button
+        className="cookie"
+        variant="outlined"
+        color="secondary"
+        onClick={handleDecline}
+      >
         Refuser
       </Button>
     </Box>
