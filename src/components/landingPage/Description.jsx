@@ -7,13 +7,13 @@ function Description() {
       sx={{
         display: 'flex',
         flexDirection: 'row', // Disposition horizontale
-        alignItems: 'center', // Centrer les éléments verticalement
-        
+        alignItems: 'center', // Centrer les éléments verticalementmi-transparent
         color: 'white', // Couleur du texte
         margin: '0 auto', // Centrer le box dans le conteneur parent
         padding: '20px', // Un peu d'espace autour des éléments
-        backgroundColor: 'transparent', // En fonction de votre design
-        marginTop: '30px'
+        backgroundColor: 'black', // En fonction de votre design
+        paddingTop: '40px',
+        paddingBottom: '40px',
       }}
     >
       <Box

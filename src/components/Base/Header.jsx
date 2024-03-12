@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 
 function Header() {
   return (
-    <Box
+    <Box className="header"
       sx={{
         backgroundImage: 'url(/side-view-happy-woman-winning-videogame.jpg)',
         backgroundSize: 'cover',

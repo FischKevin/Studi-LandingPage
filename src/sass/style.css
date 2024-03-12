@@ -3,8 +3,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
 }
 
 body {
@@ -34,6 +32,11 @@ body {
 .customButton:hover {
   background-color: #C01818;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-table-container {
+  background-color: transparent !important;
+  color: black !important;
 }
 
 .cookie {
