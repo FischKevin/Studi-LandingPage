@@ -19,7 +19,7 @@ function Header() {
       }}
     >
       <button className="customButton">
-        ACHETE TON BILLET
+        RESERVE TON BILLET
       </button>
     </Box>
   );
