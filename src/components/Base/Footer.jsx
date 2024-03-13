@@ -68,8 +68,11 @@ function Footer() {
           <Link href="/legal" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Mentions légales
           </Link>
-          <Link href="/confidentiality" color="inherit">
+          <Link href="/confidentiality" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Politique de confidentialité
+          </Link>
+          <Link href="/cookies" color="inherit" sx={{ display: 'block', mb: 1 }}>
+            Gestion des cookies
           </Link>
         </Grid>
       </Grid>
