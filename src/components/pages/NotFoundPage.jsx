@@ -1,6 +1,6 @@
-import Navbar from '../base/Navbar';
-import Header from '../base/Header';
-import Footer from '../base/Footer';
+import Navbar from '../basetoto/Navbar';
+import Header from '../basetoto/Header';
+import Footer from '../basetoto/Footer';
 import NotFound from '../notFoundPage/NotFound';
 
 function LegalPage() {
