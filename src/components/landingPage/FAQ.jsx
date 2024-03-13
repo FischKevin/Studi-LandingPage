@@ -21,14 +21,15 @@ const faqs = [
       'Les détails exacts de la date et du lieu seront communiqués sur notre site web et nos réseaux sociaux. Suivez-nous pour les dernières mises à jour.',
   },
   {
-    question: 'Comment puis-je participer à l\'événement ?',
+    question: "Comment puis-je participer à l'événement ?",
     answer:
-      'Vous pouvez vous inscrire en tant que participant, bénévole ou donateur via notre site web. Il y a de nombreuses façons de s\'impliquer, que ce soit en jouant, en aidant à l\'organisation, ou en faisant un don.',
+      "Vous pouvez vous inscrire en tant que participant, bénévole ou donateur via notre site web. Il y a de nombreuses façons de s'impliquer, que ce soit en jouant, en aidant à l'organisation, ou en faisant un don.",
   },
   {
-    question: 'Y aura-t-il des activités pour ceux qui ne jouent pas aux jeux vidéo ?',
+    question:
+      'Y aura-t-il des activités pour ceux qui ne jouent pas aux jeux vidéo ?',
     answer:
-      'Absolument ! L\'événement comprend des ateliers sur la santé, des discussions sur les avancées de la recherche sur le cancer, et des opportunités de réseautage.',
+      "Absolument ! L'événement comprend des ateliers sur la santé, des discussions sur les avancées de la recherche sur le cancer, et des opportunités de réseautage.",
   },
   {
     question: 'Les dons sont-ils déductibles des impôts ?',
@@ -41,24 +42,25 @@ const faqs = [
       'Tous les fonds collectés seront directement versés à la Ligue contre le cancer pour financer la recherche, la prévention et le soutien des personnes touchées par le cancer.',
   },
   {
-    question: 'Puis-je devenir un sponsor de l\'événement ?',
+    question: "Puis-je devenir un sponsor de l'événement ?",
     answer:
       'Bien sûr ! Nous accueillons les entreprises et les individus souhaitant sponsoriser notre événement. Contactez-nous pour plus de détails sur nos packages de sponsoring.',
   },
   {
-    question: 'Y a-t-il des restrictions d\'âge pour participer ?',
+    question: "Y a-t-il des restrictions d'âge pour participer ?",
     answer:
-      'L\'événement est ouvert à tous, mais certaines activités, comme les tournois de jeux vidéo, peuvent avoir des restrictions d\'âge en fonction du classement des jeux.',
+      "L'événement est ouvert à tous, mais certaines activités, comme les tournois de jeux vidéo, peuvent avoir des restrictions d'âge en fonction du classement des jeux.",
   },
   {
-    question: 'Comment puis-je rester informé des mises à jour de l\'événement ?',
+    question:
+      "Comment puis-je rester informé des mises à jour de l'événement ?",
     answer:
       'Inscrivez-vous à notre newsletter et suivez-nous sur les réseaux sociaux pour recevoir des mises à jour régulières sur "Press Start to Fight Cancer".',
   },
   {
-    question: 'Que faire si j\'ai d\'autres questions ?',
+    question: "Que faire si j'ai d'autres questions ?",
     answer:
-      'Si vous avez d\'autres questions, n\'hésitez pas à nous contacter via le formulaire sur notre site web ou directement sur nos réseaux sociaux.',
+      "Si vous avez d'autres questions, n'hésitez pas à nous contacter via le formulaire sur notre site web ou directement sur nos réseaux sociaux.",
   },
 ];
 
