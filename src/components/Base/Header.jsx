@@ -3,7 +3,8 @@ import Box from '@mui/material/Box';
 
 function Header() {
   return (
-    <Box className="header"
+    <Box
+      className="header"
       sx={{
         backgroundImage: 'url(/side-view-happy-woman-winning-videogame.jpg)',
         backgroundSize: 'cover',
@@ -18,9 +19,7 @@ function Header() {
         p: 6,
       }}
     >
-      <button className="customButton">
-        RESERVE TON BILLET
-      </button>
+      <button className="customButton">RESERVE TON BILLET</button>
     </Box>
   );
 }

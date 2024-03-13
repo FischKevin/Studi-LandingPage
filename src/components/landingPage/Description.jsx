@@ -30,11 +30,19 @@ function Description() {
         sx={{
           flex: 1, // Prend tout l'espace restant
           color: 'white', // Assurez-vous que la couleur du texte est blanche
-          margin: '20px'
+          margin: '20px',
         }}
       >
-        Entrez dans l&apos;arène du jeu et de la solidarité avec “Press Start to Fight Cancer”, un événement où votre passion pour le gaming aide à combattre le cancer. Relevez des défis ludiques, rencontrez des gamers engagés, et participez à des ateliers de prévention. Chaque clic, chaque tournoi, chaque interaction nous rapproche d&apos;une victoire contre le cancer. Soyez le héros de cette bataille ! Jouez, apprenez, et contribuez à faire la différence. Joignez-vous à la lutte, jouez pour guérir.
-        <br/><br/>
+        Entrez dans l&apos;arène du jeu et de la solidarité avec “Press Start to
+        Fight Cancer”, un événement où votre passion pour le gaming aide à
+        combattre le cancer. Relevez des défis ludiques, rencontrez des gamers
+        engagés, et participez à des ateliers de prévention. Chaque clic, chaque
+        tournoi, chaque interaction nous rapproche d&apos;une victoire contre le
+        cancer. Soyez le héros de cette bataille ! Jouez, apprenez, et
+        contribuez à faire la différence. Joignez-vous à la lutte, jouez pour
+        guérir.
+        <br />
+        <br />
         Votre quête commence maintenant !
       </Typography>
     </Box>
