@@ -2,9 +2,10 @@ import React from 'react';
 import ReactGA from 'react-ga4';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LegalPage from './pages/LegalPage';
-import ConfidentialityPage from './pages/ConfidentialityPage';
+// import ConfidentialityPage from './pages/ConfidentialityPage';
 import NotFoundPage from './pages/NotFoundPage';
 import LandingPage from './pages/LandingPage';
+import ConfidentialityPage from './pages/ConfidentialityPage';
 import UsePageViews from './usePageViews';
 import { CssBaseline, ThemeProvider, createTheme, Box } from '@mui/material';
 
