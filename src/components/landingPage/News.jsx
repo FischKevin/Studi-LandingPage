@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Box, Link } from '@mui/material';
-import backgroundImage from '/public/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg';
+import backgroundImage from '/ani-kolleshi-7jjnJ-QA9fY-unsplash.jpg';
 
 function News() {
   return (
@@ -38,17 +38,17 @@ function News() {
       >
         {[
           {
-            src: '/public/news1.png',
+            src: '/news1.png',
             alt: 'News 1',
             link: 'https://www.ligue-cancer.net/nos-actualites/tous-unis-contre-le-cancer-avec-e-leclerc-et-la-ligue',
           },
           {
-            src: '/public/news2.png',
+            src: '/news2.png',
             alt: 'News 2',
             link: 'https://www.ligue-cancer.net/nos-actualites/la-ligue-contre-le-cancer-au-salon-des-seniors',
           },
           {
-            src: '/public/news3.png',
+            src: '/news3.png',
             alt: 'News 3',
             link: 'https://www.ligue-cancer.net/nos-actualites/clapsante-magazine-parution-du-numero-43',
           },

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Container, TextField, Button, Box } from '@mui/material';
-import backgroundImage from '/public/photo_contact.jpg';
+import backgroundImage from '/photo_contact.jpg';
 
 function Contact() {
   return (

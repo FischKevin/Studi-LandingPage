@@ -12,7 +12,7 @@ function Footer() {
         <Grid item xs={12} sm={4} textAlign="center">
           <Box
             component="img"
-            src="/public/logo_full.png"
+            src="/logo_full.png"
             alt="Logo de l'événement"
             sx={{ width: 128, height: 'auto', mb: 2 }}
           />
