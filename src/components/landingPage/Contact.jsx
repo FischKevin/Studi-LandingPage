@@ -4,22 +4,20 @@ import { Typography, Container, TextField, Button, Box } from '@mui/material';
 import backgroundImage from '/photo_contact.jpg';
 
 function Contact() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
   
-    const myForm = event.target;
-    const formData = new FormData(myForm);
-    
+    // Préparez les données du formulaire pour l'envoi
+    const data = new FormData(form);
+  
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
+      body: new URLSearchParams(data).toString()
     })
-      .then(() => {
-        console.log('Form successfully submitted');
-        window.location.href = '/src/thanks.html'; // Redirige l'utilisateur vers la page de remerciements
-      })
-      .catch((error) => alert(error));
+      .then(() => console.log('Form successfully submitted'))
+      .catch(error => console.error('Error:', error));
   };
 
   return (
@@ -65,7 +63,7 @@ function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
-          action="/thanks"
+          action="/thanks.html"
           onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
