@@ -26,7 +26,7 @@ function Header() {
         component="h2"
         sx={{
           mt: 'auto',
-          mb: 8,
+          mb: 2,
           textShadow: '3px 3px 6px rgba(0, 0, 0, 0.9)', // Ombre portée plus prononcée
           color: '#F9EA32',
           fontWeight: 'bold',
@@ -37,6 +37,18 @@ function Header() {
         }}
       >
         SAMEDI 29 JUIN 2024
+      </Typography>
+      {/* Ajouter le lieu ici */}
+      <Typography
+        variant="h5"
+        sx={{
+          mb: 6, // Ajustez cette marge selon le placement désiré
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+          color: '#F9EA32',
+          fontWeight: 'bold',
+        }}
+      >
+        Sud de France Arena, Pérols, Occitanie
       </Typography>
       <a
         href="https://www.eventbrite.fr/e/billets-press-start-to-fight-cancer-862248497467?aff=oddtdtcreator"
