@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Box } from '@mui/material';
+// Si vous utilisez React Router, n'oubliez pas d'importer Link
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [shrink, setShrink] = useState(false);
@@ -14,7 +16,6 @@ function Navbar() {
   }, []);
 
   return (
-    // Box externe pour gérer la fixation et la pleine largeur
     <Box
       sx={{
         display: 'flex',
@@ -26,7 +27,6 @@ function Navbar() {
         zIndex: 1100,
       }}
     >
-      {/* AppBar qui agit comme un conteneur pour le contenu centré */}
       <AppBar
         sx={{
           position: 'sticky',
@@ -38,7 +38,6 @@ function Navbar() {
           width: '100%',
         }}
       >
-        {/* Box interne pour limiter la largeur du contenu de la barre */}
         <Box sx={{ width: '100%', maxWidth: '1440px', margin: '0 auto' }}>
           <Toolbar
             sx={{
@@ -48,11 +47,21 @@ function Navbar() {
               minHeight: shrink ? '56px' : '64px',
             }}
           >
-            <img
-              src="/logo_text.png"
-              alt="Logo"
-              style={{ maxWidth: shrink ? '150px' : '250px', height: 'auto' }}
-            />
+            <Link
+              to="/"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                textDecoration: 'none',
+              }}
+            >
+              <img
+                src="/logo_text.png"
+                alt="Logo"
+                style={{ maxWidth: shrink ? '150px' : '250px', height: 'auto' }}
+              />
+            </Link>
+            {/* Vous pouvez ajouter votre lien ici, en utilisant <a> ou <Link> si vous utilisez React Router */}
           </Toolbar>
         </Box>
       </AppBar>

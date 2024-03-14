@@ -7,17 +7,17 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
-  
+
     // Préparez les données du formulaire pour l'envoi
     const data = new FormData(form);
-  
+
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(data).toString()
+      body: new URLSearchParams(data).toString(),
     })
       .then(() => console.log('Form successfully submitted'))
-      .catch(error => console.error('Error:', error));
+      .catch((error) => console.error('Error:', error));
   };
 
   return (
