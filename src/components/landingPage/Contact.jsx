@@ -17,7 +17,7 @@ function Contact() {
     })
       .then(() => {
         console.log('Form successfully submitted');
-        window.location.href = '/thanks.html'; // Redirige l'utilisateur vers la page de remerciements
+        window.location.href = '/src/thanks.html'; // Redirige l'utilisateur vers la page de remerciements
       })
       .catch((error) => alert(error));
   };
