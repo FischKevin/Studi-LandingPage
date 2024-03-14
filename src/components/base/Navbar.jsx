@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Box } from '@mui/material';
-// Si vous utilisez React Router, n'oubliez pas d'importer Link
 import { Link } from 'react-router-dom';
 
 function Navbar() {

@@ -78,7 +78,7 @@ function Footer() {
             Politique de confidentialité
           </Link>
           <Link
-            href="/cookies"
+            href="/cookie"
             color="inherit"
             sx={{ display: 'block', mb: 1 }}
           >

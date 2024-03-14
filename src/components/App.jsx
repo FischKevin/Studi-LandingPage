@@ -2,7 +2,7 @@ import React from 'react';
 import ReactGA from 'react-ga4';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LegalPage from './pages/LegalPage';
-// import ConfidentialityPage from './pages/ConfidentialityPage';
+import CookiePage from './pages/CookiePage';
 import NotFoundPage from './pages/NotFoundPage';
 import LandingPage from './pages/LandingPage';
 import ConfidentialityPage from './pages/ConfidentialityPage';
@@ -40,6 +40,7 @@ function AppRouter() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/legal" element={<LegalPage />} />
             <Route path="/confidentiality" element={<ConfidentialityPage />} />
+            <Route path="/cookie" element={<CookiePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Box>
