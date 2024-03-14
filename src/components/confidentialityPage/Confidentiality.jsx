@@ -12,7 +12,7 @@ function Confidentiality() {
 
       {/* Introduction et portée */}
       <Typography paragraph>
-        Kevin Fischer accorde une grande importance à votre vie privée ainsi qu’à la protection de vos données à caractère personnel et prend toutes les précautions raisonnables pour assurer leur protection.
+        StudiGAme accorde une grande importance à votre vie privée ainsi qu’à la protection de vos données à caractère personnel et prend toutes les précautions raisonnables pour assurer leur protection.
         <br /><br />
         La présente Politique a pour objet de vous informer sur les procédures et les traitements de données à caractère personnel qui sont mis en place à l’occasion de l’organisation de la Press Start To Fight Cancer et des évènements qui y sont liés. Cette Politique a pour objet de vous informer des mesures prises concernant la protection de vos données personnelles conformément au Règlement Général sur la Protection des Données ou « RGPD » de l’Union européenne du 27 avril 2016 (n°2016/679).
         <br /><br />
@@ -22,7 +22,7 @@ function Confidentiality() {
           <li>Un document spécifique à question des cookies que nous utilisons la Politique de gestion des cookies.</li>
         </ul>
         <br />
-        Les termes « nous » ou « nos » utilisés dans la présente Politique de confidentialité désignent la société Kevin Fischer.
+        Les termes « nous » ou « nos » utilisés dans la présente Politique de confidentialité désignent la société StudiGAme.
         <br /><br />
         Dans la suite de ce document, nous utilisons indifféremment les termes « données personnelles », « données à caractère personnel » et « informations personnelles » pour désigner les informations vous identifiant personnellement (noms, prénoms, adresses professionnelles, etc.) ou, comme en l’occurrence, des données qui sont liées à vous (réponses apportées aux questions portées sur nos formulaires), ainsi que les données de connexion ou de navigation sur notre site (le cas échéant adresse IP, date et heure de connexion).
         <br /><br />
@@ -49,7 +49,7 @@ function Confidentiality() {
         <br />
         Nous sommes le responsable du traitement du sens du Règlement (UE) 2016/679 du Règlement Général pour la Protection des Données (ci-après « RGPD »), pour les procédures et les traitements de données à caractère personnel qui sont mis en place à l’occasion de l’organisation de la Press Start To Fight Cancer et des évènements qui y sont liés.
         <br /><br />
-        En tant que tel, nous nous engageons à respecter le cadre des dispositions légales en vigueur et notamment à prendre toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des données Personnelles au regard des finalités pour lesquelles Kevin Fischer les traite.
+        En tant que tel, nous nous engageons à respecter le cadre des dispositions légales en vigueur et notamment à prendre toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des données Personnelles au regard des finalités pour lesquelles StudiGAme les traite.
       </Typography>
 
       {/* Périmètre d’application */}

@@ -26,7 +26,7 @@ function Legal() {
         Vous pouvez nous joindre aux coordonnées indiquées sur la page
         studi-pressstarttofightcancer.netlify.app.
         <br />
-        Le Directeur de la publication est Kevin Fischer.
+        Le Directeur de la publication est StudiGAme.
         <br />
         <br />
         Le site studi-pressstarttofightcancer.netlify.app est hébergé par la société Netlify, sise 512 2nd
@@ -59,18 +59,18 @@ function Legal() {
         qui s’efforcera alors de communiquer préalablement aux utilisateurs les
         dates et heures de l’intervention. Le site
         studi-pressstarttofightcancer.netlify.app est mis à jour régulièrement
-        par Kevin Fischer. De la même façon, les mentions légales peuvent être
+        par StudiGAme. De la même façon, les mentions légales peuvent être
         corrigées, modifiées ou mises à jour à tout moment sans préavis : elles
         s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le
         plus souvent possible afin d’en prendre connaissance.
         <br />
         <br />
-        Kevin Fischer ne peut être tenue pour responsable de la modification des
+        StudiGAme ne peut être tenue pour responsable de la modification des
         dispositions administratives et juridiques survenant après leur
         publication sur le Site.
         <br />
         <br />
-        Kevin Fischer décline toute responsabilité pour toute imprécision,
+        StudiGAme décline toute responsabilité pour toute imprécision,
         inexactitude ou omission portant sur des informations disponibles sur le
         Site.
       </Typography>
@@ -86,7 +86,7 @@ function Legal() {
         qui y sont attachés et détient les droits d’usage sur tous les éléments
         accessibles sur le site internet, notamment les textes, images,
         graphismes, logos, vidéos, architecture, icônes et sons, y compris le
-        droit de reproduction appartenant à Kevin Fischer.
+        droit de reproduction appartenant à StudiGAme.
         <br />
         <br />
         L’Utilisateur ne peut en aucune manière réutiliser, céder ou exploiter
@@ -96,7 +96,7 @@ function Legal() {
         par quelque moyen que ce soit, du Site ou de l’un quelconque de ses
         éléments, à des fins et dans des conditions autres que celles prévues à
         l’article L.122-5 du Code de la Propriété Intellectuelle est interdite,
-        sauf autorisation expresse et préalable de Kevin Fischer. Par ailleurs,
+        sauf autorisation expresse et préalable de StudiGAme. Par ailleurs,
         en vertu de l’article L. 342-1 du Code de la propriété intellectuelle,
         nous interdisons le téléchargement de la totalité ou d’une partie
         quantitativement substantielle de notre site par utilisation de robots
@@ -112,7 +112,7 @@ function Legal() {
         <br />
         Le site internet studi-pressstarttofightcancer.netlify.app a pour objet
         de fournir une information concernant l’ensemble des activités de la
-        société. Kevin Fischer s’efforce de fournir sur le site
+        société. StudiGAme s’efforce de fournir sur le site
         studi-pressstarttofightcancer.netlify.app des informations aussi
         précises que possible. Toutefois, il ne pourra être tenu responsable des
         oublis, des inexactitudes et des carences dans la mise à jour, qu’elles
@@ -151,13 +151,13 @@ function Legal() {
         réputé anormal.
         <br />
         <br />
-        Kevin Fischer et l’hébergeur ne pourront être tenus responsables en cas
+        StudiGAme et l’hébergeur ne pourront être tenus responsables en cas
         de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du
         matériel informatique et de téléphonie lié notamment à l’encombrement du
         réseau empêchant l’accès au serveur.
         <br />
         <br />
-        Kevin Fischer s’engage à sécuriser au mieux le site
+        StudiGAme s’engage à sécuriser au mieux le site
         studi-pressstarttofightcancer.netlify.app, cependant sa responsabilité
         ne pourra être mise en cause si des données indésirables sont importées
         et installées sur son site à son insu.
@@ -167,24 +167,24 @@ function Legal() {
         <strong>6 – Limitations de responsabilité</strong>
         <br />
         Des espaces interactifs (espace contact ou commentaires) sont à la
-        disposition des utilisateurs. Kevin Fischer se réserve le droit de
+        disposition des utilisateurs. StudiGAme se réserve le droit de
         supprimer, sans mise en demeure préalable, tout contenu déposé dans cet
         espace qui contreviendrait à la législation applicable en France, en
         particulier aux dispositions relatives à la protection des données.
         <br />
         <br />
-        Le cas échéant, Kevin Fischer se réserve également la possibilité de
+        Le cas échéant, StudiGAme se réserve également la possibilité de
         mettre en cause la responsabilité civile et/ou pénale de l’utilisateur,
         notamment en cas de message à caractère raciste, injurieux, diffamant,
         ou pornographique, quel que soit le support utilisé (texte, photographie
         …).
         <br />
         <br />
-        Kevin Fischer agit en tant qu’éditeur du site. Kevin Fischer est
+        StudiGAme agit en tant qu’éditeur du site. StudiGAme est
         responsable de la qualité et de la véracité du Contenu qu’il publie.
         <br />
         <br />
-        Kevin Fischer ne pourra être tenu responsable des dommages directs et
+        StudiGAme ne pourra être tenu responsable des dommages directs et
         indirects causés au matériel de l’utilisateur, lors de l’accès au site
         studi-pressstarttofightcancer.netlify.app, et résultant soit de
         l’utilisation d’un matériel ne répondant pas aux spécifications
@@ -202,7 +202,7 @@ function Legal() {
         l’évènement.
         <br />
         <br />
-        Kevin Fischer est le responsable des traitements de données collectées
+        StudiGAme est le responsable des traitements de données collectées
         sur le présent site. Vous trouverez l’ensemble des informations utiles
         sur la façon dont nous collectons et traitons vos données personnelles
         (type de données, finalité, destinataires, droits dont vous disposez
