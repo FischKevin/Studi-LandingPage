@@ -29,8 +29,8 @@ function Legal() {
         Le Directeur de la publication est Kevin Fischer.
         <br />
         <br />
-        Le site (contenu) est hébergé par la société Netlify, sise 512 2nd
-        Street, Suite 200 San Francisco, CA 94107 ; CIF : B87194171 ; contact
+        Le site studi-pressstarttofightcancer.netlify.app est hébergé par la société Netlify, sise 512 2nd
+        Street, Suite 200 San Francisco, CA 94107 ; contact
         par e-mail :{' '}
         <Link href="mailto:support@netlify.com" color="inherit">
           support@netlify.com
