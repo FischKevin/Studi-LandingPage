@@ -3,6 +3,11 @@ import { Typography, Container, TextField, Button, Box } from '@mui/material';
 import backgroundImage from '/photo_contact.jpg';
 
 function Contact() {
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Pour éviter le rechargement de la page
+    // Logique pour traiter les données du formulaire, si nécessaire
+  };
+
   return (
     <Container
       maxWidth="full"
@@ -42,72 +47,81 @@ function Contact() {
         }}
       >
         {/* Formulaire de contact */}
-        <Box
-          sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 2,
-            maxWidth: '400px',
-          }}
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          onSubmit={handleSubmit}
         >
-          {/* Vos champs TextField ici */}
-          <TextField
-            label="Prénom"
-            variant="outlined"
+          <input type="hidden" name="form-name" value="contact" />
+          <Box
             sx={{
-              borderRadius: '10px',
-              margin: '0',
-              bgcolor: 'white',
-              '& .MuiOutlinedInput-root': { borderRadius: '10px' },
-            }}
-          />
-          <TextField
-            label="Nom"
-            variant="outlined"
-            sx={{
-              borderRadius: '10px',
-              bgcolor: 'white',
-              '& .MuiOutlinedInput-root': { borderRadius: '10px' },
-            }}
-          />
-          <TextField
-            label="E-mail"
-            variant="outlined"
-            sx={{
-              borderRadius: '10px',
-              bgcolor: 'white',
-              '& .MuiOutlinedInput-root': { borderRadius: '10px' },
-            }}
-          />
-          <TextField
-            label="Message"
-            variant="outlined"
-            multiline
-            rows={4}
-            sx={{
-              borderRadius: '10px',
-              bgcolor: 'white',
-              '& .MuiOutlinedInput-root': { borderRadius: '10px' },
-            }}
-          />
-          <Button
-            variant="contained"
-            sx={{
-              backgroundColor: '#E84142',
-              color: 'white',
-              border: '1px solid #C01818',
-              borderRadius: '10px',
-              padding: '10px 20px',
-              fontSize: '16px',
-              '&:hover': {
-                backgroundColor: '#C01818',
-              },
-              boxShadow: '0px 6px 8px rgba(0, 0, 0, 0.2)',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: 2,
+              maxWidth: '400px',
             }}
           >
-            ENVOYER
-          </Button>
-        </Box>
+            <TextField
+              name="prenom"
+              label="Prénom"
+              variant="outlined"
+              sx={{
+                borderRadius: '10px',
+                bgcolor: 'white',
+                '& .MuiOutlinedInput-root': { borderRadius: '10px' },
+              }}
+            />
+            <TextField
+              name="nom"
+              label="Nom"
+              variant="outlined"
+              sx={{
+                borderRadius: '10px',
+                bgcolor: 'white',
+                '& .MuiOutlinedInput-root': { borderRadius: '10px' },
+              }}
+            />
+            <TextField
+              name="email"
+              label="E-mail"
+              variant="outlined"
+              sx={{
+                borderRadius: '10px',
+                bgcolor: 'white',
+                '& .MuiOutlinedInput-root': { borderRadius: '10px' },
+              }}
+            />
+            <TextField
+              name="message"
+              label="Message"
+              variant="outlined"
+              multiline
+              rows={4}
+              sx={{
+                borderRadius: '10px',
+                bgcolor: 'white',
+                '& .MuiOutlinedInput-root': { borderRadius: '10px' },
+              }}
+            />
+            <Button
+              type="submit"
+              variant="contained"
+              sx={{
+                backgroundColor: '#E84142',
+                color: 'white',
+                border: '1px solid #C01818',
+                borderRadius: '10px',
+                padding: '10px 20px',
+                fontSize: '16px',
+                '&:hover': { backgroundColor: '#C01818' },
+                boxShadow: '0px 6px 8px rgba(0, 0, 0, 0.2)',
+              }}
+            >
+              ENVOYER
+            </Button>
+          </Box>
+        </form>
 
         {/* Section Newsletter */}
         <Box
