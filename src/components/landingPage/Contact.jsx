@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Container, TextField, Button, Box } from '@mui/material';
+// import NotFoundPage from '/NotFoundPage';
 import backgroundImage from '/photo_contact.jpg';
 
 function Contact() {
@@ -61,8 +62,8 @@ function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
+          action="/NotFoundPage"
           onSubmit={handleSubmit}
-          netlify
         >
           <input type="hidden" name="form-name" value="contact" />
           <Box
