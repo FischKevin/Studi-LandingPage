@@ -87,7 +87,13 @@ function Footer() {
           >
             Réservation de billets
           </Link>
-          <Link href="/shop" color="inherit" sx={{ display: 'block', mb: 1 }}>
+          <Link
+            href="https://press-start-to-fight-cancer.myspreadshop.fr/"
+            target="_blank"
+            rel="noreferrer"
+            color="inherit"
+            sx={{ display: 'block', mb: 1 }}
+          >
             Boutique de goodies
           </Link>
           <Typography component="div" sx={{ height: 24 }} />{' '}
