@@ -6,6 +6,7 @@ import CookiePage from './pages/CookiePage';
 import NotFoundPage from './pages/NotFoundPage';
 import LandingPage from './pages/LandingPage';
 import ConfidentialityPage from './pages/ConfidentialityPage';
+import CreditsPage from './pages/CreditsPage';
 import UsePageViews from './usePageViews';
 import { CssBaseline, ThemeProvider, createTheme, Box } from '@mui/material';
 
@@ -41,6 +42,7 @@ function AppRouter() {
             <Route path="/legal" element={<LegalPage />} />
             <Route path="/confidentiality" element={<ConfidentialityPage />} />
             <Route path="/cookie" element={<CookiePage />} />
+            <Route path="/credits" element={<CreditsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Box>

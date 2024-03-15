@@ -111,6 +111,9 @@ function Footer() {
           <Link href="/cookie" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Gestion des cookies
           </Link>
+          <Link href="/credits" color="inherit" sx={{ display: 'block', mb: 1 }}>
+            Crédits
+          </Link>
         </Grid>
       </Grid>
       <Typography variant="subtitle1" align="center" sx={{ mt: 4 }}>
