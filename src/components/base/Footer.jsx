@@ -1,9 +1,23 @@
 import React from 'react';
+import { PropTypes } from 'prop-types';
 import { Typography, Box, Grid, Link, IconButton } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter'; // Remplacer par l'icône souhaitée pour "x"
+import XIcon from '@mui/icons-material/X';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
+
+const TwitchIcon = ({ size = '40px', color = 'currentColor', ...props }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill={color}
+    {...props}
+  >
+    <path d="M11.64 5.93h1.43v4.28h-1.43m3.93-4.28H17v4.28h-1.43M7 2L3.43 5.57v12.86h4.28V22l3.58-3.57h2.85L20.57 12V2m-1.43 9.29l-2.85 2.85h-2.86l-2.5 2.5v-2.5H7.71V3.43h11.43Z" />
+  </svg>
+);
 
 function Footer() {
   return (
@@ -26,29 +40,40 @@ function Footer() {
               color="inherit"
               href="https://facebook.com"
               target="_blank"
+              sx={{ fontSize: '40px' }}
             >
-              <FacebookIcon />
+              <FacebookIcon fontSize="inherit" />
             </IconButton>
             <IconButton
               color="inherit"
               href="https://twitter.com"
               target="_blank"
+              sx={{ fontSize: '40px' }}
             >
-              <TwitterIcon />
+              <XIcon fontSize="inherit" />
             </IconButton>
             <IconButton
               color="inherit"
               href="https://youtube.com"
               target="_blank"
+              sx={{ fontSize: '40px' }}
             >
-              <YouTubeIcon />
+              <YouTubeIcon fontSize="inherit" />
             </IconButton>
             <IconButton
               color="inherit"
               href="https://instagram.com"
               target="_blank"
+              sx={{ fontSize: '40px' }}
             >
-              <InstagramIcon />
+              <InstagramIcon fontSize="inherit" />
+            </IconButton>
+            <IconButton
+              color="inherit"
+              href="https://twitch.tv"
+              target="_blank"
+            >
+              <TwitchIcon />
             </IconButton>
           </Box>
         </Grid>
@@ -77,11 +102,7 @@ function Footer() {
           >
             Politique de confidentialité
           </Link>
-          <Link
-            href="/cookie"
-            color="inherit"
-            sx={{ display: 'block', mb: 1 }}
-          >
+          <Link href="/cookie" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Gestion des cookies
           </Link>
         </Grid>
@@ -94,3 +115,8 @@ function Footer() {
 }
 
 export default Footer;
+
+TwitchIcon.propTypes = {
+  size: PropTypes.string,
+  color: PropTypes.string,
+};

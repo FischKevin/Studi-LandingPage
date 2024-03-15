@@ -146,14 +146,14 @@ function Contact() {
           }}
         >
           <Box
-        sx={{
-          mt: 4, // Ajoute un espace en haut pour la séparation
-          width: '100%', // Utilisez la largeur maximale
-          display: 'flex',
-          justifyContent: 'center', // Centre le formulaire dans la boîte
-        }}
-        dangerouslySetInnerHTML={{
-          __html: `
+            sx={{
+              mt: 4, // Ajoute un espace en haut pour la séparation
+              width: '100%', // Utilisez la largeur maximale
+              display: 'flex',
+              justifyContent: 'center', // Centre le formulaire dans la boîte
+            }}
+            dangerouslySetInnerHTML={{
+              __html: `
           <div id="mc_embed_shell">
           <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
       <style type="text/css">
@@ -162,7 +162,7 @@ function Contact() {
             #mc_embed_signup h2 {padding:12px;}
             #mc_embed_signup .mc-field-group input {padding: 16px 8px; height:55px; width:300px;}
             #mc_embed_signup input {border-radius:10px; padding: 16.5px 14px; font: inherit; height: 1.4375em;  }
-            form h2 { color: white; background: rgba(255, 255, 255, .2); border-radius:10px; text-align: center;  }
+            form h2 { color: white; background: rgba(255, 255, 255, .2); border-radius:10px; text-align: center; text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); }
             #mc_embed_signup .helper_text {display: none;}
             #mc_embed_signup .button {width: 300px; margin-top: 6px;
               height: 48px;
@@ -193,8 +193,8 @@ function Contact() {
     </div>
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
           `,
-        }}
-      />
+            }}
+          />
         </Box>
       </Box>
     </Container>

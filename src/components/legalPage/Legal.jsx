@@ -29,9 +29,9 @@ function Legal() {
         Le Directeur de la publication est StudiGAme.
         <br />
         <br />
-        Le site studi-pressstarttofightcancer.netlify.app est hébergé par la société Netlify, sise 512 2nd
-        Street, Suite 200 San Francisco, CA 94107 ; contact
-        par e-mail :{' '}
+        Le site studi-pressstarttofightcancer.netlify.app est hébergé par la
+        société Netlify, sise 512 2nd Street, Suite 200 San Francisco, CA 94107
+        ; contact par e-mail :{' '}
         <Link href="mailto:support@netlify.com" color="inherit">
           support@netlify.com
         </Link>
@@ -96,9 +96,9 @@ function Legal() {
         par quelque moyen que ce soit, du Site ou de l’un quelconque de ses
         éléments, à des fins et dans des conditions autres que celles prévues à
         l’article L.122-5 du Code de la Propriété Intellectuelle est interdite,
-        sauf autorisation expresse et préalable de StudiGAme. Par ailleurs,
-        en vertu de l’article L. 342-1 du Code de la propriété intellectuelle,
-        nous interdisons le téléchargement de la totalité ou d’une partie
+        sauf autorisation expresse et préalable de StudiGAme. Par ailleurs, en
+        vertu de l’article L. 342-1 du Code de la propriété intellectuelle, nous
+        interdisons le téléchargement de la totalité ou d’une partie
         quantitativement substantielle de notre site par utilisation de robots
         ou de tout autre procédé d’extraction automatique. Toute exploitation
         non autorisée du site ou de l’un quelconque des éléments qu’il contient
@@ -151,8 +151,8 @@ function Legal() {
         réputé anormal.
         <br />
         <br />
-        StudiGAme et l’hébergeur ne pourront être tenus responsables en cas
-        de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du
+        StudiGAme et l’hébergeur ne pourront être tenus responsables en cas de
+        dysfonctionnement du réseau Internet, des lignes téléphoniques ou du
         matériel informatique et de téléphonie lié notamment à l’encombrement du
         réseau empêchant l’accès au serveur.
         <br />
@@ -173,15 +173,15 @@ function Legal() {
         particulier aux dispositions relatives à la protection des données.
         <br />
         <br />
-        Le cas échéant, StudiGAme se réserve également la possibilité de
-        mettre en cause la responsabilité civile et/ou pénale de l’utilisateur,
+        Le cas échéant, StudiGAme se réserve également la possibilité de mettre
+        en cause la responsabilité civile et/ou pénale de l’utilisateur,
         notamment en cas de message à caractère raciste, injurieux, diffamant,
         ou pornographique, quel que soit le support utilisé (texte, photographie
         …).
         <br />
         <br />
-        StudiGAme agit en tant qu’éditeur du site. StudiGAme est
-        responsable de la qualité et de la véracité du Contenu qu’il publie.
+        StudiGAme agit en tant qu’éditeur du site. StudiGAme est responsable de
+        la qualité et de la véracité du Contenu qu’il publie.
         <br />
         <br />
         StudiGAme ne pourra être tenu responsable des dommages directs et
@@ -202,10 +202,10 @@ function Legal() {
         l’évènement.
         <br />
         <br />
-        StudiGAme est le responsable des traitements de données collectées
-        sur le présent site. Vous trouverez l’ensemble des informations utiles
-        sur la façon dont nous collectons et traitons vos données personnelles
-        (type de données, finalité, destinataires, droits dont vous disposez
+        StudiGAme est le responsable des traitements de données collectées sur
+        le présent site. Vous trouverez l’ensemble des informations utiles sur
+        la façon dont nous collectons et traitons vos données personnelles (type
+        de données, finalité, destinataires, droits dont vous disposez
         conformément à la réglementation applicable…) dans la Politique de
         Confidentialité.
       </Typography>

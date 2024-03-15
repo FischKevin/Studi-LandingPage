@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga4';
+// import ReactGA from 'react-ga4';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LegalPage from './pages/LegalPage';
 import CookiePage from './pages/CookiePage';
@@ -24,8 +24,8 @@ const theme = createTheme({
   },
 });
 
-const TRACKING_ID = 'UA-XXXXXXXXX-X'; // Remplacez cela par votre propre ID de suivi Google Analytics
-ReactGA.initialize(TRACKING_ID);
+// const TRACKING_ID = 'UA-XXXXXXXXX-X'; // Remplacez cela par votre propre ID de suivi Google Analytics
+// ReactGA.initialize(TRACKING_ID);
 
 function AppRouter() {
   return (

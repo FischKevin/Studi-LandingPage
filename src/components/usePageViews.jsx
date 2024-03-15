@@ -1,18 +1,13 @@
 import { useEffect } from 'react';
-import ReactGA from 'react-ga4';
 import { useLocation } from 'react-router-dom';
 
-function UsePageViews() {
+const UsePageViews = () => {
   let location = useLocation();
-
   useEffect(() => {
-    ReactGA.send({
-      hitType: 'pageview',
-      page: location.pathname + location.search,
+    window.gtag('config', 'G-6KLWYEWW0Y', { 
+      'page_path': location.pathname 
     });
   }, [location]);
-
-  return null;
-}
+};
 
 export default UsePageViews;
