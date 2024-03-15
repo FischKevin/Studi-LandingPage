@@ -1,5 +1,13 @@
-import React, {useState} from 'react';
-import { Typography, Container, TextField, Button, Box, Snackbar, Alert } from '@mui/material';
+import React, { useState } from 'react';
+import {
+  Typography,
+  Container,
+  TextField,
+  Button,
+  Box,
+  Snackbar,
+  Alert,
+} from '@mui/material';
 // import NotFoundPage from '/NotFoundPage';
 import backgroundImage from '/photo_contact.jpg';
 
@@ -27,7 +35,7 @@ function Contact() {
       .then(() => console.log('Form successfully submitted'))
       .catch((error) => console.error('Error:', error));
 
-          // Afficher le Snackbar
+    // Afficher le Snackbar
     setOpenSnackbar(true);
 
     // Réinitialiser les champs du formulaire
@@ -101,8 +109,8 @@ function Contact() {
               name="prenom"
               label="Prénom"
               variant="outlined"
-              value={prenom} 
-              onChange={e => setPrenom(e.target.value)}
+              value={prenom}
+              onChange={(e) => setPrenom(e.target.value)}
               sx={{
                 borderRadius: '10px',
                 bgcolor: 'white',
@@ -113,8 +121,8 @@ function Contact() {
               name="nom"
               label="Nom"
               variant="outlined"
-              value={nom} 
-              onChange={e => setNom(e.target.value)}
+              value={nom}
+              onChange={(e) => setNom(e.target.value)}
               sx={{
                 borderRadius: '10px',
                 bgcolor: 'white',
@@ -125,8 +133,8 @@ function Contact() {
               name="email"
               label="E-mail"
               variant="outlined"
-              value={email} 
-              onChange={e => setEmail(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               sx={{
                 borderRadius: '10px',
                 bgcolor: 'white',
@@ -137,8 +145,8 @@ function Contact() {
               name="message"
               label="Message"
               variant="outlined"
-              value={message} 
-              onChange={e => setMessage(e.target.value)}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               multiline
               rows={4}
               sx={{
@@ -167,10 +175,10 @@ function Contact() {
         </form>
 
         <Snackbar open={openSnackbar} autoHideDuration={6000}>
-        <Alert severity="success" sx={{ width: '100%' }}>
-          Votre message a été envoyé avec succès !
-        </Alert>
-      </Snackbar>
+          <Alert severity="success" sx={{ width: '100%' }}>
+            Votre message a été envoyé avec succès !
+          </Alert>
+        </Snackbar>
 
         {/* Section Newsletter */}
         <Box

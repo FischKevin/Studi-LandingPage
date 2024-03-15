@@ -40,7 +40,12 @@ function Footer() {
               color="inherit"
               href="https://facebook.com"
               target="_blank"
-              sx={{ fontSize: '40px' }}
+              sx={{
+                fontSize: '40px',
+                '&:hover': {
+                  color: '#68C5F1',
+                },
+              }}
             >
               <FacebookIcon fontSize="inherit" />
             </IconButton>
@@ -48,7 +53,12 @@ function Footer() {
               color="inherit"
               href="https://twitter.com"
               target="_blank"
-              sx={{ fontSize: '40px' }}
+              sx={{
+                fontSize: '40px',
+                '&:hover': {
+                  color: '#68C5F1',
+                },
+              }}
             >
               <XIcon fontSize="inherit" />
             </IconButton>
@@ -56,7 +66,12 @@ function Footer() {
               color="inherit"
               href="https://youtube.com"
               target="_blank"
-              sx={{ fontSize: '40px' }}
+              sx={{
+                fontSize: '40px',
+                '&:hover': {
+                  color: '#68C5F1',
+                },
+              }}
             >
               <YouTubeIcon fontSize="inherit" />
             </IconButton>
@@ -64,7 +79,12 @@ function Footer() {
               color="inherit"
               href="https://instagram.com"
               target="_blank"
-              sx={{ fontSize: '40px' }}
+              sx={{
+                fontSize: '40px',
+                '&:hover': {
+                  color: '#68C5F1',
+                },
+              }}
             >
               <InstagramIcon fontSize="inherit" />
             </IconButton>
@@ -72,6 +92,12 @@ function Footer() {
               color="inherit"
               href="https://twitch.tv"
               target="_blank"
+              sx={{
+                fontSize: '40px',
+                '&:hover': {
+                  color: '#68C5F1',
+                },
+              }}
             >
               <TwitchIcon />
             </IconButton>
@@ -111,7 +137,11 @@ function Footer() {
           <Link href="/cookie" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Gestion des cookies
           </Link>
-          <Link href="/credits" color="inherit" sx={{ display: 'block', mb: 1 }}>
+          <Link
+            href="/credits"
+            color="inherit"
+            sx={{ display: 'block', mb: 1 }}
+          >
             Crédits
           </Link>
         </Grid>
