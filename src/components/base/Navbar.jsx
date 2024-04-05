@@ -55,12 +55,11 @@ function Navbar() {
               }}
             >
               <img
-                src="/logo_text.png"
+                src="/logo_text.webp"
                 alt="Logo"
                 style={{ maxWidth: shrink ? '150px' : '250px', height: 'auto' }}
               />
             </Link>
-            {/* Vous pouvez ajouter votre lien ici, en utilisant <a> ou <Link> si vous utilisez React Router */}
           </Toolbar>
         </Box>
       </AppBar>

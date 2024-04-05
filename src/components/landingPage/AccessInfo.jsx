@@ -11,7 +11,6 @@ function AccessInfo() {
         padding: '40px 20px 60px 20px',
       }}
     >
-      {/* Titre */}
       <Typography
         variant="h4"
         component="h2"
@@ -21,7 +20,6 @@ function AccessInfo() {
         INFORMATIONS D&apos;ACCÈS
       </Typography>
 
-      {/* Conteneur des colonnes */}
       <Box
         sx={{
           display: 'flex',
@@ -30,7 +28,6 @@ function AccessInfo() {
           marginTop: '40px',
         }}
       >
-        {/* Colonne 1: Plan */}
         <Box
           sx={{
             flex: 1,
@@ -39,9 +36,8 @@ function AccessInfo() {
             alignItems: 'center',
           }}
         >
-          {/* Utilisation de la capture d'écran du plan */}
           <img
-            src="/plan.PNG"
+            src="/plan.webp"
             alt="Plan d'accès"
             style={{
               maxWidth: '100%',
@@ -52,7 +48,6 @@ function AccessInfo() {
           />
         </Box>
 
-        {/* Colonne 2: Texte */}
         <Box sx={{ flex: 1, margin: '20px' }}>
           <Typography variant="h6" gutterBottom>
             Horaires

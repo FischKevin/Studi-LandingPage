@@ -6,12 +6,12 @@ function Description() {
     <Box
       sx={{
         display: 'flex',
-        flexDirection: 'row', // Disposition horizontale
-        alignItems: 'center', // Centrer les éléments verticalementmi-transparent
-        color: 'white', // Couleur du texte
-        margin: '0 auto', // Centrer le box dans le conteneur parent
-        padding: '20px', // Un peu d'espace autour des éléments
-        backgroundColor: 'black', // En fonction de votre design
+        flexDirection: 'row',
+        alignItems: 'center',
+        color: 'white',
+        margin: '0 auto',
+        padding: '20px',
+        backgroundColor: 'black',
         paddingTop: '40px',
         paddingBottom: '40px',
       }}
@@ -20,16 +20,16 @@ function Description() {
         component="img"
         sx={{
           height: 'auto',
-          width: '250px', // Ajustez selon la taille souhaitée pour le logo
-          margin: '20px', // Espace entre le logo et le texte
+          width: '250px',
+          margin: '20px',
         }}
         alt="Logo"
-        src="/logo_full.png"
+        src="/logo_full.webp"
       />
       <Typography
         sx={{
-          flex: 1, // Prend tout l'espace restant
-          color: 'white', // Assurez-vous que la couleur du texte est blanche
+          flex: 1,
+          color: 'white',
           margin: '20px',
         }}
       >

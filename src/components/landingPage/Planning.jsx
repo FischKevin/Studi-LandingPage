@@ -9,7 +9,7 @@ import {
   TableRow,
   Container,
 } from '@mui/material';
-import backgroundImage from '/jason-leung-Xaanw0s0pMk-unsplash.jpg';
+import backgroundImage from '/jason-leung-Xaanw0s0pMk-unsplash.webp';
 
 function Planning() {
   return (
@@ -23,7 +23,6 @@ function Planning() {
         backgroundSize: 'cover',
       }}
     >
-      {/* Titre du planning */}
       <Box
         sx={{
           display: 'inline-block',
@@ -47,7 +46,6 @@ function Planning() {
         </Typography>
       </Box>
 
-      {/* Conteneurs pour les colonnes, ajustés pour montrer le fond */}
       <Box
         sx={{
           display: 'flex',
@@ -56,7 +54,6 @@ function Planning() {
           gap: '20px',
         }}
       >
-        {/* Première colonne: Matin */}
         <Box sx={{ maxWidth: '45%' }}>
           <Typography
             variant="h6"
@@ -98,7 +95,6 @@ function Planning() {
           </TableContainer>
         </Box>
 
-        {/* Deuxième colonne: Après-midi */}
         <Box sx={{ maxWidth: '45%', marginBottom: '20px' }}>
           <Typography
             variant="h6"

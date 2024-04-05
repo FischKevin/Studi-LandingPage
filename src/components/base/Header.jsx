@@ -1,13 +1,13 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography'; // Importez Typography de Material-UI
+import Typography from '@mui/material/Typography';
 
 function Header() {
   return (
     <Box
       className="header"
       sx={{
-        backgroundImage: 'url(/side-view-happy-woman-winning-videogame.jpg)',
+        backgroundImage: 'url(/side-view-happy-woman-winning-videogame.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: '#fff',
@@ -15,34 +15,32 @@ function Header() {
         height: '550px',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'flex-end', // Changez ici pour aligner les éléments vers le bas
+        justifyContent: 'flex-end',
         alignItems: 'center',
         p: 6,
       }}
     >
-      {/* Ajoutez une marge en haut pour descendre le texte et le bouton */}
       <Typography
-        variant="h3" // Augmentez la taille du texte
+        variant="h3"
         component="h2"
         sx={{
           mt: 'auto',
           mb: 2,
-          textShadow: '3px 3px 6px rgba(0, 0, 0, 0.9)', // Ombre portée plus prononcée
+          textShadow: '3px 3px 6px rgba(0, 0, 0, 0.9)',
           color: '#F9EA32',
           fontWeight: 'bold',
-          letterSpacing: '0.1rem', // Augmente l'espacement des lettres
-          // background: 'linear-gradient(45deg, #F9EA32, #F76B1C)', // Gradient de couleurs
+          letterSpacing: '0.1rem',
           WebkitBackgroundClip: 'text',
           backgroundClip: 'text',
         }}
       >
         SAMEDI 29 JUIN 2024
       </Typography>
-      {/* Ajouter le lieu ici */}
+
       <Typography
         variant="h5"
         sx={{
-          mb: 6, // Ajustez cette marge selon le placement désiré
+          mb: 6,
           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
           color: '#F9EA32',
           fontWeight: 'bold',
@@ -54,12 +52,11 @@ function Header() {
         href="https://www.eventbrite.fr/e/billets-press-start-to-fight-cancer-862248497467?aff=oddtdtcreator"
         target="_blank"
         rel="noreferrer"
-        className="customButton" // Appliquez vos styles de bouton ici
+        className="customButton"
         style={{
-          textDecoration: 'none', // Supprimez le soulignement du texte
-          display: 'inline-block', // Nécessaire pour appliquer le padding
-          textAlign: 'center', // Centrez le texte dans le bouton
-          // Ajoutez ici d'autres styles si nécessaire
+          textDecoration: 'none',
+          display: 'inline-block',
+          textAlign: 'center',
         }}
       >
         RESERVE TON BILLET

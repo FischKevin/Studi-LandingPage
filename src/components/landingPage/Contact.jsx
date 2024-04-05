@@ -8,23 +8,19 @@ import {
   Snackbar,
   Alert,
 } from '@mui/material';
-// import NotFoundPage from '/NotFoundPage';
-import backgroundImage from '/photo_contact.jpg';
+import backgroundImage from '/photo_contact.webp';
 
 function Contact() {
-  // États pour les champs du formulaire
   const [prenom, setPrenom] = useState('');
   const [nom, setNom] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  // État pour le Snackbar
   const [openSnackbar, setOpenSnackbar] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
 
-    // Préparez les données du formulaire pour l'envoi
     const data = new FormData(form);
 
     fetch('/', {
@@ -35,16 +31,13 @@ function Contact() {
       .then(() => console.log('Form successfully submitted'))
       .catch((error) => console.error('Error:', error));
 
-    // Afficher le Snackbar
     setOpenSnackbar(true);
 
-    // Réinitialiser les champs du formulaire
     setPrenom('');
     setNom('');
     setEmail('');
     setMessage('');
 
-    // Fermer le Snackbar après 4 secondes
     setTimeout(() => {
       setOpenSnackbar(false);
     }, 4000);
@@ -57,14 +50,13 @@ function Contact() {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         display: 'flex',
-        flexDirection: 'column', // Changez ici pour organiser le contenu verticalement
+        flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         color: 'white',
         padding: '40px 0 60px 0',
       }}
     >
-      {/* Titre centré sur la page */}
       <Typography
         variant="h4"
         sx={{
@@ -77,18 +69,16 @@ function Contact() {
         CONTACTEZ-NOUS
       </Typography>
 
-      {/* Sections flexibles pour le formulaire et la newsletter */}
       <Box
         sx={{
           display: 'flex',
           flexDirection: { xs: 'column', md: 'row' },
           alignItems: 'center',
           justifyContent: 'space-around',
-          width: '100%', // Assure la largeur complète pour centrer le contenu
-          gap: 4, // Espace entre formulaire et newsletter
+          width: '100%',
+          gap: 4,
         }}
       >
-        {/* Formulaire de contact */}
         <form
           name="contact"
           method="POST"
@@ -180,7 +170,6 @@ function Contact() {
           </Alert>
         </Snackbar>
 
-        {/* Section Newsletter */}
         <Box
           sx={{
             display: 'flex',
@@ -191,10 +180,10 @@ function Contact() {
         >
           <Box
             sx={{
-              mt: 4, // Ajoute un espace en haut pour la séparation
-              width: '100%', // Utilisez la largeur maximale
+              mt: 4,
+              width: '100%',
               display: 'flex',
-              justifyContent: 'center', // Centre le formulaire dans la boîte
+              justifyContent: 'center',
             }}
             dangerouslySetInnerHTML={{
               __html: `

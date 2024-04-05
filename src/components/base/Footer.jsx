@@ -26,7 +26,7 @@ function Footer() {
         <Grid item xs={12} sm={4} textAlign="center">
           <Box
             component="img"
-            src="/logo_full.png"
+            src="/logo_full.webp"
             alt="Logo de l'événement"
             sx={{ width: 128, height: 'auto', mb: 2 }}
           />
@@ -123,7 +123,7 @@ function Footer() {
             Boutique de goodies
           </Link>
           <Typography component="div" sx={{ height: 24 }} />{' '}
-          {/* Espacement vide */}
+
           <Link href="/legal" color="inherit" sx={{ display: 'block', mb: 1 }}>
             Mentions légales
           </Link>
