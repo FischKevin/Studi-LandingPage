@@ -17,7 +17,6 @@ function Confidentiality() {
         <br />V 1.1 Applicable au 30 janvier 2024
       </Typography>
 
-      {/* Introduction et portée */}
       <Typography paragraph>
         StudiGAme accorde une grande importance à votre vie privée ainsi qu’à la
         protection de vos données à caractère personnel et prend toutes les
@@ -85,7 +84,6 @@ function Confidentiality() {
         </ul>
       </Typography>
 
-      {/* Qui sommes-nous ? */}
       <Typography paragraph>
         <strong>1 – Qui sommes-nous ?</strong>
         <br />
@@ -103,7 +101,6 @@ function Confidentiality() {
         StudiGAme les traite.
       </Typography>
 
-      {/* Périmètre d’application */}
       <Typography paragraph>
         <strong>2 – Périmètre d’application</strong>
         <br />
@@ -113,7 +110,6 @@ function Confidentiality() {
         au sens du RGPD.
       </Typography>
 
-      {/* Collecte et utilisation des données */}
       <Typography paragraph>
         <strong>
           3 – Quelles données collectons-nous sur vous et pourquoi traitons-nous
@@ -162,7 +158,6 @@ function Confidentiality() {
         indispensables au traitement de votre demande.
       </Typography>
 
-      {/* Mesures de confidentialité et de sécurité */}
       <Typography paragraph>
         <strong>4 – Mesures de confidentialité et de sécurité</strong>
         <br />
@@ -182,7 +177,6 @@ function Confidentiality() {
         transfert de ces données (cf. ci-dessous).
       </Typography>
 
-      {/* Droits des utilisateurs */}
       <Typography paragraph>
         <strong>5 – Destinataires des données</strong>
         <br />
@@ -243,7 +237,6 @@ function Confidentiality() {
         </ul>
       </Typography>
 
-      {/* Contact */}
       <Typography paragraph>
         <strong>6 – Transfert international de données</strong>
         <br />
@@ -262,7 +255,6 @@ function Confidentiality() {
         Protection des données à l’adresse suivante dpo@avisa-partners.com.
       </Typography>
 
-      {/* Modification de la politique de confidentialité */}
       <Typography paragraph>
         <strong>
           7 – Partage des réseaux sociaux auprès desquels vous avez un compte
@@ -291,7 +283,6 @@ function Confidentiality() {
         confidentialité.
       </Typography>
 
-      {/* Utilisation des cookies */}
       <Typography paragraph>
         <strong>8 – Droits d’accès, de rectification et d’effacement</strong>
         <br />

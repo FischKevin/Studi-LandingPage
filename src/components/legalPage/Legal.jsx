@@ -16,7 +16,6 @@ function Legal() {
         Mentions légales
       </Typography>
 
-      {/* Éditeur et directeur de la publication */}
       <Typography paragraph>
         <strong>1 – Éditeur et directeur de la publication</strong>
         <br />
@@ -38,7 +37,6 @@ function Legal() {
         .
       </Typography>
 
-      {/* Conditions générales d'utilisation du site et des services proposés */}
       <Typography paragraph>
         <strong>
           2 – Conditions générales d’utilisation du site et des services
@@ -75,7 +73,6 @@ function Legal() {
         Site.
       </Typography>
 
-      {/* Propriété intellectuelle */}
       <Typography paragraph>
         <strong>3 – Propriété intellectuelle</strong>
         <br />

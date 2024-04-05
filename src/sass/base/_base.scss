@@ -1,21 +1,16 @@
 * {
   box-sizing: border-box;
-  // margin: 0 auto;
   padding: 0;
-  // background-color: black;
-  // color: white;
-  // max-width: 1440px;
 }
 
 body {
-  // max-width: 1440px;
   margin: 0 auto;
 }
 
 .MuiAppBar-root {
-  background-color: black !important; /* Assurez-vous que l'arrière-plan de l'AppBar est noir */
-  margin: 0 !important; /* Enlève les marges potentielles */
-  padding: 0 !important; /* Enlève les paddings potentiels */
+  background-color: black !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .customButton {
