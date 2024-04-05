@@ -128,7 +128,7 @@ function FAQ() {
               aria-controls={`panel${index}-content`}
               id={`panel${index}-header`}
               sx={{
-                backgroundColor: '#3897D4',
+                backgroundColor: '#C01818',
                 color: 'white',
                 fontFamily: 'Roboto',
                 fontWeight: 'bold',
@@ -145,8 +145,8 @@ function FAQ() {
               sx={{
                 fontFamily: 'Roboto',
                 fontSize: '16px',
-                backgroundColor: '#68C5F1',
-                color: 'black',
+                backgroundColor: '#E84142',
+                color: 'white',
               }}
             >
               {faq.answer}
