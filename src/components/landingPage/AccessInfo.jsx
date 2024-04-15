@@ -9,13 +9,14 @@ function AccessInfo() {
         backgroundColor: 'black',
         color: 'white',
         padding: '40px 20px 60px 20px',
+        textAlign: 'center',
       }}
     >
       <Typography
         variant="h4"
         component="h2"
         gutterBottom
-        sx={{ textAlign: 'center', fontFamily: 'Agency FB V2, Arial' }}
+        className='sectionTitle'
       >
         INFORMATIONS D&apos;ACCÈS
       </Typography>

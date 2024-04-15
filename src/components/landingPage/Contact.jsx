@@ -59,12 +59,7 @@ function Contact() {
     >
       <Typography
         variant="h4"
-        sx={{
-          textShadow: '0px 8px 10px rgba(0, 0, 0, 0.4)',
-          fontFamily: 'Agency FB V2, Arial',
-          fontWeight: 'bold',
-          marginBottom: '20px',
-        }}
+        className='sectionTitle'
       >
         CONTACTEZ-NOUS
       </Typography>

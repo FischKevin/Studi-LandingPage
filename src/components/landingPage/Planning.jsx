@@ -34,13 +34,7 @@ function Planning() {
           variant="h4"
           component="h2"
           gutterBottom
-          sx={{
-            textShadow: '0px 8px 10px rgba(0, 0, 0, 0.4)',
-            backgroundColor: 'transparent',
-            fontFamily: 'Agency FB V2, Arial',
-            fontWeight: 'bold',
-            marginBottom: '20px',
-          }}
+          className='sectionTitle'
         >
           PROGRAMME DE L&apos;ÉVÉNEMENT
         </Typography>

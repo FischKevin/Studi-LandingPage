@@ -18,11 +18,7 @@ function News() {
         component="h2"
         marginBottom="40px"
         gutterBottom
-        sx={{
-          fontFamily: 'Agency FB V2, Arial',
-          color: 'white',
-          textShadow: '0px 8px 10px rgba(0, 0, 0, 0.4)',
-        }}
+        className='sectionTitle'
       >
         ACTUALITÉS
       </Typography>

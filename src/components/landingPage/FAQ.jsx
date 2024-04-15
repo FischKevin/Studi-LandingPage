@@ -87,12 +87,7 @@ function FAQ() {
         variant="h4"
         component="h2"
         gutterBottom
-        sx={{
-          textAlign: 'center',
-          fontFamily: 'Agency FB V2, Arial',
-          color: 'white',
-          marginBottom: 4,
-        }}
+        className='sectionTitle'
       >
         FAQ
       </Typography>
