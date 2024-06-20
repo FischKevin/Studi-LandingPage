@@ -33,7 +33,7 @@ const CookieConsent = () => {
       sx={{
         position: 'fixed',
         bottom: 0,
-        maxWidth: '1440px',
+        // maxWidth: '1440px',
         width: '100%',
         zIndex: 1,
         bgcolor: 'background.paper',
@@ -46,7 +46,29 @@ const CookieConsent = () => {
       }}
     >
       <Typography>
-        Nous utilisons des cookies pour améliorer votre expérience. En continuant à utiliser ce site, vous acceptez notre <Link href="/cookie" style={{color: 'inherit', textDecoration: 'underline'}}>politique de cookies</Link>, notre <Link href="/legal" style={{color: 'inherit', textDecoration: 'underline'}}>mentions légales</Link> et notre <Link href="/confidentiality" style={{color: 'inherit', textDecoration: 'underline'}}>politique de confidentialité</Link>.
+        Nous utilisons des cookies pour améliorer votre expérience. En
+        continuant à utiliser ce site, vous acceptez notre{' '}
+        <Link
+          href="/cookie"
+          style={{ color: 'inherit', textDecoration: 'underline' }}
+        >
+          politique de cookies
+        </Link>
+        , notre{' '}
+        <Link
+          href="/legal"
+          style={{ color: 'inherit', textDecoration: 'underline' }}
+        >
+          mentions légales
+        </Link>{' '}
+        et notre{' '}
+        <Link
+          href="/confidentiality"
+          style={{ color: 'inherit', textDecoration: 'underline' }}
+        >
+          politique de confidentialité
+        </Link>
+        .
       </Typography>
       <Button
         className="cookie"

@@ -32,7 +32,7 @@ function Navbar() {
           top: 0,
           zIndex: 1100,
           backgroundColor: 'transparent',
-          maxWidth: '1440px',
+          // maxWidth: '1440px',
           margin: '0 auto',
           width: '100%',
         }}

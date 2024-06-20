@@ -30,7 +30,7 @@ function AppRouter() {
       <CssBaseline />
       <BrowserRouter>
         <UsePageViews />
-        <Box sx={{ maxWidth: 1440, mx: 'auto', width: '100%' }}>
+        <Box sx={{ mx: 'auto', width: '100%' }}>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/legal" element={<LegalPage />} />
